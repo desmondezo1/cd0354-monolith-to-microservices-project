@@ -31,7 +31,7 @@ jobs:
             docker tag udagram-reverseproxy desmondezo/reverseproxy:v5
             echo "-------- All images succesfully built----------"
             echo " ------- login in to hub--------"
-            docker login -u desezo@gmail.com -p Oghenefejiro123!
+            docker login -u desmondezo -p Oghenefejiro123!
             echo "-------------- Pushing images to dockerhub-------"
             docker push desmondezo/udagram-api-feed:v5
             docker push desmondezo/udagram-api-user:v5
